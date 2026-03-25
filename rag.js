@@ -1,7 +1,7 @@
 /**
  * step 1:Indexing
- * 1.Load the document -pdf,txt
- * 2.chunk the document
+ * 1.Load the document -pdf,txt=done
+ * 2.chunk the document=done
  * 3.generate vector embeding
  * 4.store the vector embeding in vector database
  *

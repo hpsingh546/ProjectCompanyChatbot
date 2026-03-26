@@ -5,7 +5,8 @@ import { PineconeStore } from "@langchain/pinecone";
 import { Pinecone as PineconeClient } from "@pinecone-database/pinecone";
 import "dotenv/config";
 
-// * 3.generate vector embeding
+// *  * 3.generate vector embeding
+//* 4.store the vector embeding in vector database
 const embeddings = new OpenAIEmbeddings({
   model: "text-embedding-3-small",
 });
